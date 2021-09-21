@@ -32,7 +32,7 @@ and the earliest review for each business, we filtered out 141,613 businesses th
 criteria of having more than 2 years of review history. We visualized the distribution of
 review history for all these businesses using a histogram.
 
-![alt text](https://github.com/RomirH/final/blob/master/fig1.png?raw=true)
+![alt text](https://github.com/RomirH/YelpTimeSeriesAnalysis/blob/master/fig1.png?raw=true)
 
 *Fig 1. Histogram of the duration of review history for 141613 businesses with at least 2 years of
 review history. (Left) Count of businesses and (right) cumulative distribution of businesses
@@ -44,7 +44,7 @@ is rather encouraging given that we initially were afraid that only a few busine
 Yelp database would have a lengthy history.
 Following, we plotted the histogram of total review counts for these 141613 businesses.
 
-![alt text](https://github.com/RomirH/final/blob/master/fig2.png?raw=true)
+![alt text](https://github.com/RomirH/YelpTimeSeriesAnalysis/blob/master/fig2.png?raw=true)
 
 *Fig 2. Histogram of the total review counts for the 141613 businesses with a review history of at
 least 2 years. (Left) Count of businesses, (right) cumulative distribution on a log-log scale, of
@@ -74,7 +74,7 @@ analysis.
 To explore our data, we first plotted the histogram of review duration and the total
 review count for the 13,814 businesses we have after pre-processing.
 
-![alt text](https://github.com/RomirH/final/blob/master/fig3.png?raw=true)
+![alt text](https://github.com/RomirH/YelpTimeSeriesAnalysis/blob/master/fig3.png?raw=true)
 
 *Fig 3. Cumulative distribution of review history duration binned by years (Left) and cumulative
 distribution of businesses binned by the number of total reviews received on log-log scale
@@ -96,7 +96,7 @@ then used least-squares linear regression to get the overall trend of the review
 each business. Below is a 3D plot of the slope and R² value of the overall trend of
 review count for each business.
 
-![alt text](https://github.com/RomirH/final/blob/master/fig4.png?raw=true)
+![alt text](https://github.com/RomirH/YelpTimeSeriesAnalysis/blob/master/fig4.png?raw=true)
 
 We then created two groups of businesses loosely based on the coefficient of the
 regression; one group consists of businesses whose review counts had a linear
@@ -114,7 +114,7 @@ result is not skewed by outliers, then this suggests that a lot of them are doin
 and have a relatively quick increase in their review count. Among the 2895 businesses
 in the group ‘increase’, 301 of them are closed. The table below summarizes this result.
 
-![alt text](https://github.com/RomirH/final/blob/master/fig5.png?raw=true)
+![alt text](https://github.com/RomirH/YelpTimeSeriesAnalysis/blob/master/fig5.png?raw=true)
 
 We were curious about whether the slope of the review count had anything to do with
 whether the business is still open or not. As a result, we performed a chi-square test to
@@ -158,7 +158,7 @@ inclined to try out a new place and share their thoughts about it. The eventual 
 we see for all businesses could be a part of the fluctuating trend that averages out over
 time.
 
-![alt text](https://github.com/RomirH/final/blob/master/fig6.png?raw=true)
+![alt text](https://github.com/RomirH/YelpTimeSeriesAnalysis/blob/master/fig6.png?raw=true)
 
 The same timescale and business grouping were used to model the trend of average
 review ratings and the trend of mean review sentiment. Looking at the trend of average
@@ -170,9 +170,9 @@ they’re more dedicated to go above and beyond in order to capture a market sha
 the beginning, or people are just excited to see a new place and so tend to think better
 of it. Either way, they all seem to follow the same trend of a stabilizing average.
 
-![alt text](https://github.com/RomirH/final/blob/master/fig7.png?raw=true)
+![alt text](https://github.com/RomirH/YelpTimeSeriesAnalysis/blob/master/fig7.png?raw=true)
 
-![alt text](https://github.com/RomirH/final/blob/master/fig8.png?raw=true)
+![alt text](https://github.com/RomirH/YelpTimeSeriesAnalysis/blob/master/fig8.png?raw=true)
 
 The idea of customers having a more positive outlook in the beginning can somewhat
 be supported by the graph above which showcases the trend of mean review sentiment.
@@ -194,7 +194,7 @@ add business id in the model, depicted in the graph below as business encoded, i
 certain businesses get better ratings just because of their reputation, which would be
 tied to their name.
 
-![alt text](https://github.com/RomirH/final/blob/master/fig9.png?raw=true)
+![alt text](https://github.com/RomirH/YelpTimeSeriesAnalysis/blob/master/fig9.png?raw=true)
 
 From the model, it seems the number of total votes individual reviews receive don’t
 matter much overall, and neither does the id of a business. In terms of sentiment,
